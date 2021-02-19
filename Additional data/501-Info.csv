@@ -1,0 +1,502 @@
+Parameter_ID,DataType,PDF,gamlss_function,Link_function,Link_of_location_Meu,Link_of_scale_Sigma,Transformation,Reference_distribution,Modality,Description
+A120_A,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Total_length_of_actin_patch_link
+A120_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Total_length_of_actin_patch_link
+A120_C,Non-negative,Weibull,WEI,log,log,log,asis,Gamma,1,Total_length_of_actin_patch_link
+A121_A,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Maximal_distance_between_patches
+A121_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Maximal_distance_between_patches
+A121_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Maximal_distance_between_patches
+A122_A,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Number_of_bright_actin_patches
+A122_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Number_of_bright_actin_patches
+A122_C,Non-negative,Weibull,WEI,log,log,log,asis,Gamma,1,Number_of_bright_actin_patches
+A123_A,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Ratio_of_actin_patches_to_actin_region
+A123_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Ratio_of_actin_patches_to_actin_region
+A123_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,2,Ratio_of_actin_patches_to_actin_region
+A7-1_A,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Size_of_actin_region
+A7-1_A1B,Non-negative,Weibull,WEI,log,log,log,asis,Gamma,1,Size_of_actin_region_in_mother
+A7-1_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Size_of_actin_region_in_mother
+A7-2_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Size_of_actin_region_in_bud
+A7-2_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Size_of_actin_region_in_bud
+A8-1_A,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Actin_region_brightness
+A8-1_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Total_brightness_of_actin_region_in_mother
+A8-1_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Total_brightness_of_actin_region_in_mother
+A8-2_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Total_brightness_of_actin_region_in_bud
+A8-2_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Total_brightness_of_actin_region_in_bud
+C101_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Whole_cell_size
+C101_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Whole_cell_size
+C102_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Whole_cell_outline_length
+C102_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Whole_cell_outline_length
+C103_A,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Long_axis_length_in_whole_cell
+C103_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Long_axis_length_in_mother
+C103_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Long_axis_length_in_mother
+C104_A,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Short_axis_length_in_whole_cell
+C104_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Short_axis_length_in_mother
+C104_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Short_axis_length_in_mother
+C105_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Neck_position
+C105_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Neck_position
+C106_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Bud_direction
+C106_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Bud_direction
+C107_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Long_axis_length_in_bud
+C107_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Long_axis_length_in_bud
+C108_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Short_axis_length_in_bud
+C108_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Short_axis_length_in_bud
+C109_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Neck_width
+C109_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Neck_width
+C11-1_A,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Whole_cell_size
+C11-1_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Mother_cell_size
+C11-1_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Mother_cell_size
+C11-2_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Bud_cell_size
+C11-2_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Bud_cell_size
+C110_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_bud_tip_and_mother_long_axis_extension
+C110_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_bud_tip_and_mother_long_axis_extension
+C111_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_bud_tip_and_mother_short_axis_extension
+C111_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_bud_tip_and_mother_short_axis_extension
+C112_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_middle_point_of_neck_and_mother_center
+C112_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_middle_point_of_neck_and_mother_center
+C113_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_bud_tip_and_mother_long_axis_through_middle_point_of_neck
+C113_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_bud_tip_and_mother_long_axis_through_middle_point_of_neck
+C114_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Bud_axis_ratio
+C114_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Bud_axis_ratio
+C116_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Axis_ratio_ratio
+C116_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Axis_ratio_ratio
+C12-1_A,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Whole_cell_outline_length
+C12-1_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Mother_cell_outline_length
+C12-1_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Mother_cell_outline_length
+C12-2_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Bud_cell_outline_length
+C12-2_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Bud_cell_outline_length
+C126_A,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Brightness_difference_of_cell_wall
+C126_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Brightness_difference_of_cell_wall
+C126_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Brightness_difference_of_cell_wall
+C127_A,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Thickness_difference_of_cell_wall
+C127_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Thickness_difference_of_cell_wall
+C127_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Thickness_difference_of_cell_wall
+C128_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_middle_point_of_neck_and_mother_hip
+C128_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_middle_point_of_neck_and_mother_hip
+C13_A,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Whole_cell_fitness_for_ellipse
+C13_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Mother_cell_fitness_for_ellipse
+C13_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Mother_cell_fitness_for_ellipse
+D102_A,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_gravity_center_and_mother_tip
+D103_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_gravity_center_in_mother_and_mother_tip
+D104_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_gravity_center_and_mother_tip
+D108_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_gravity_center_in_mother_and_middle_point_of_neck
+D109_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_gravity_center_in_bud_and_middle_point_of_neck
+D110_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_gravity_center_and_middle_point_of_neck
+D116_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_two_nuclear_gravity_centers_through_middle_point_of_neck
+D117_A,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_gravity_center_and_cell_center
+D117_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_gravity_center_in_mother_and_mother_center
+D118_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_gravity_center_and_mother_center
+D119_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_gravity_center_in_bud_and_bud_center
+D121_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_gravity_center_in_bud_and_bud_tip
+D125_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_gravity_center_in_mother_and_mother_hip
+D126_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_gravity_center_and_mother_hip
+D127_A,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_brightest_point_and_cell_tip
+D128_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_brightest_point_in_mother_and_mother_tip
+D129_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_brightest_point_and_mother_tip
+D130_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_brightest_point_in_mother_and_middle_point_of_neck
+D131_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,2,Distance_between_nuclear_brightest_point_in_bud_and_middle_point_of_neck
+D132_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_brightest_point_and_middle_point_of_neck
+D134_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_two_nuclear_brightest_points_through_middle_point_of_neck
+D135_A,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_brightest_point_and_cell_center
+D135_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_brightest_point_in_mother_and_mother_center
+D136_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_brightest_point_and_mother_center
+D137_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_brightest_point_in_bud_and_bud_center
+D139_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_brightest_point_in_bud_and_bud_tip
+D14-1_A,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Nuclear_size
+D14-1_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Nuclear_size_in_mother
+D14-2_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Nuclear_size_in_bud
+D14-3_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Nuclear_size
+D14-3_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Nuclear_size_in_whole_cell
+D141_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_brightest_point_in_mother_and_mother_hip
+D142_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_brightest_point_and_mother_hip
+D143_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_outline_point_D6-1_and_middle_point_of_neck
+D143_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_outline_point_D6-1_in_mother_and_middle_point_of_neck
+D144_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_outline_point_D6-2_in_bud_and_middle_point_of_neck
+D145_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_outline_point_D7_and_mother_hip
+D145_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_outline_point_D7_in_mother_and_mother_hip
+D146_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_outline_point_D8_in_bud_and_bud_tip
+D15-1_A,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Nuclear_brightness
+D15-1_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Nuclear_brightness_in_mother
+D15-2_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Nuclear_brightness_in_bud
+D15-3_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Nuclear_brightness
+D15-3_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Nuclear_brightness_in_whole_cell
+D151_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Ratio_of_distance_between_each_nucleus_and_middle_point_of_neck
+D152_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Mobility_of_nucleus_in_mother
+D152_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Mobility_of_nucleus_in_mother
+D153_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Mobility_of_nucleus_in_bud
+D154_A,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Angle_between_C1D1-1_and_C1C1-2
+D154_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Angle_between_C1D1-1_and_C1C1-2
+D154_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Angle_between_C1D1-1_and_C1C1-2
+D155_A,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Angle_between_C1D2-1_and_C1C1-2
+D155_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Angle_between_C1D2-1_and_C1C1-2
+D155_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Angle_between_C1D2-1_and_C1C1-2
+D156_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Angle_between_C2D1-2_and_C2C4-2
+D157_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Angle_between_C2D2-2_and_C2C4-2
+D158_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Angle_between_D1-1D1-2_and_C1-1C1-2
+D159_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Angle_between_D2-1D2-2_and_C1-1C1-2
+D16-1_A,Non-negative,Weibull,WEI,log,log,log,asis,Gamma,1,Maximal_intensity_of_nuclear_brightness
+D16-1_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Maximal_intensity_of_nuclear_brightness_in_mother
+D16-2_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Maximal_intensity_of_nuclear_brightness_in_bud
+D16-3_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Maximal_intensity_of_nuclear_brightness
+D16-3_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Maximal_intensity_of_nuclear_brightness_in_whole_cell
+D161_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Angle_between_D3-1D4-1_and_C1-1C1-2_or_between_D3-3D4-3_and_C1-1C1-2
+D162_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Angle_between_D1-1D1-2_and_C1C4-1
+D163_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Angle_between_D2-1D2-2_and_C1C4-1
+D165_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Angle_between_D3-1D4-1_and_C1C4-1_or_between_D3-3D4-3_and_C1C4-1
+D166_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Angle_between_D1-1D1-2_and_C4-1C4-2
+D167_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Angle_between_D2-1D2-2_and_C4-1C4-2
+D169_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Angle_between_C4-1D1-1_and_C4-1C1
+D169_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Angle_between_C4-1D1-1_and_C4-1C1
+D17-1_A,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Nuclear_fitness_for_ellipse
+D17-1_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Nuclear_fitness_for_ellipse_in_mother
+D17-2_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,2,Nuclear_fitness_for_ellipse_in_bud
+D17-3_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Nuclear_fitness_for_ellipse
+D170_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Angle_between_C4-1D2-1_and_C4-1C1
+D170_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Angle_between_C4-1D2-1_and_C4-1C1
+D172_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Angle_between_C4-1D4_and_C4-1C1
+D173_A,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Maximal_distance_between_nuclear_gravity_center_and_nuclear_outline
+D173_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Maximal_distance_between_nuclear_gravity_center_and_nuclear_outline_in_mother
+D174_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Maximal_distance_between_nuclear_gravity_center_and_nuclear_outline_in_bud
+D175_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Maximal_distance_between_nuclear_gravity_center_and_nuclear_outline
+D176_A,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Nuclear_long_axis_length
+D176_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Nuclear_long_axis_length_in_mother
+D177_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Nuclear_long_axis_length_in_bud
+D178_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Nuclear_long_axis_length
+D179_A,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Nuclear_minimum_radius
+D179_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Nuclear_minimum_radius_in_mother
+D180_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Nuclear_minimum_radius_in_bud
+D181_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Nuclear_minimum_radius
+D185_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Total_length_of_two_straight_segments_D11-1C4-1_and_D11-2C4-1
+D186_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Total_length_of_two_straight_segments_D12-1C4-1_and_D12-2C4-1
+D188_A,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_gravity_center_and_brightest_point
+D188_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_gravity_center_and_brightest_point_in_mother
+D189_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_gravity_center_and_brightest_point_in_bud
+D190_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Distance_between_nuclear_gravity_center_and_brightest_point
+D191_A,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Average_of_nuclear_brightness
+D191_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Average_of_nuclear_brightness_in_mother
+D192_C,Non-negative,Weibull,WEI,log,log,log,asis,Gamma,1,Average_of_nuclear_brightness_in_bud
+D193_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Average_of_nuclear_brightness
+D193_C,Non-negative,Weibull,WEI,log,log,log,asis,Gamma,1,Average_of_nuclear_brightness_in_whole_cell
+D194_A,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Maximal_intensity_of_nuclear_brightness_divided_by_average
+D194_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Maximal_intensity_of_nuclear_brightness_divided_by_average_in_mother
+D195_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Maximal_intensity_of_nuclear_brightness_divided_by_average_in_bud
+D196_A1B,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Maximal_intensity_of_nuclear_brightness_divided_by_average
+D196_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Maximal_intensity_of_nuclear_brightness_divided_by_average_in_whole_cell
+D197_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Ratio_of_nuclear_size
+D198_C,Non-negative,Gamma,GA,log,log,log,asis,Gamma,1,Ratio_of_nuclear_brightness
+A101_A,Ratio,Beta,BE,logit,logit,logit,asis,Beta,1,Actin_region_ratio_in_whole_cell
+A101_A1B,Ratio,Beta,BE,logit,logit,logit,asis,Beta,1,Actin_region_ratio_in_whole_cell
+A101_C,Ratio,Beta,BE,logit,logit,logit,asis,Beta,1,Actin_region_ratio_in_whole_cell
+A102_A1B,Ratio,Beta,BE,logit,logit,logit,asis,Beta,1,Bud_actin_region_ratio_to_total_region
+A102_C,Ratio,Beta,BE,logit,logit,logit,asis,Beta,1,Bud_actin_region_ratio_to_total_region
+A103_A1B,Ratio,Beta,BE,logit,logit,logit,asis,Beta,1,Relative_distance_of_actin_patch_center_from_neck_in_mother
+A103_C,Ratio,Logit Normal,LOGITNO,logit,logit,log,asis,Beta,1,Relative_distance_of_actin_patch_center_from_neck_in_mother
+A104_A1B,Ratio,Beta,BE,logit,logit,logit,asis,Beta,1,Relative_distance_of_actin_patch_center_from_neck_in_bud
+A104_C,Ratio,Beta,BE,logit,logit,logit,asis,Beta,1,Relative_distance_of_actin_patch_center_from_neck_in_bud
+A9_A1B,Ratio,Beta,BE,logit,logit,logit,asis,Beta,1,Proportion_of_actin_region_at_neck
+A9_C,Ratio,Beta,BE,logit,logit,logit,asis,Beta,1,Proportion_of_actin_region_at_neck
+C115_A,Ratio,Beta,BE,1/logit,logit,logit,inverse,Beta,1,Whole_cell_axis_ratio
+C115_A1B,Ratio,Beta,BE,1/logit,logit,logit,inverse,Beta,1,Mother_axis_ratio
+C115_C,Ratio,Beta,BE,1/logit,logit,logit,inverse,Beta,1,Mother_axis_ratio
+C117_A1B,Ratio,Beta,BE,logit,logit,logit,asis,Beta,1,Cell_outline_ratio
+C117_C,Ratio,Beta,BE,logit,logit,logit,asis,Beta,1,Cell_outline_ratio
+C118_A1B,Ratio,Beta,BE,logit,logit,logit,asis,Beta,1,Cell_size_ratio
+C118_C,Ratio,Beta,BE,logit,logit,logit,asis,Beta,1,Cell_size_ratio
+D105_A,Ratio,Beta,BE,logit,logit,logit,asis,Beta,1,Ratio_of_D102_to_C103
+D106_C,Ratio,Beta,BE,logit,logit,logit,asis,Beta,1,Ratio_of_D103_to_C103
+D107_A1B,Ratio,Beta,BE,logit,logit,logit,asis,Beta,1,Ratio_of_D104_to_C103
+D112_C,Ratio,Beta,BE,logit,logit,logit,asis,Beta,1,Ratio_of_D108_to_C128
+D113_C,Ratio,Beta,BE,logit,logit,logit,asis,Beta,1,Ratio_of_D109_to_C107
+D114_A1B,Ratio,Beta,BE,logit,logit,logit,asis,Beta,1,Ratio_of_D110_to_C128
+D123_C,Ratio,Beta,BE,logit,logit,logit,asis,Beta,1,Ratio_of_D121_to_C107
+D147_A,Ratio,Beta,BE,logit,logit,logit,asis,Beta,1,Relative_distance_of_nuclear_gravity_center_to_cell_center
+D147_A1B,Ratio,Beta,BE,logit,logit,logit,asis,Beta,1,Relative_distance_of_nuclear_gravity_center_to_mother_center
+D147_C,Ratio,Beta,BE,logit,logit,logit,asis,Beta,1,Relative_distance_of_nuclear_gravity_center_in_mother_to_mother_center
+D148_A,Ratio,Beta,BE,logit,logit,logit,asis,Beta,1,Relative_distance_of_nuclear_brightest_point_to_cell_center
+D148_A1B,Ratio,Beta,BE,logit,logit,logit,asis,Beta,1,Relative_distance_of_nuclear_brightest_point_to_mother_center
+D148_C,Ratio,Beta,BE,logit,logit,logit,asis,Beta,1,Relative_distance_of_nuclear_brightest_point_in_mother_to_mother_center
+D149_C,Ratio,Beta,BE,logit,logit,logit,asis,Beta,1,Relative_distance_of_nuclear_gravity_center_in_bud_to_bud_center
+D150_C,Ratio,Beta,BE,logit,logit,logit,asis,Beta,1,Relative_distance_of_nuclear_brightest_point_in_bud_to_bud_center
+D182_A,Ratio,Beta,BE,2/logit,logit,logit,inverse-double,Beta,1,Nuclear_axis_ratio
+D182_C,Ratio,Beta,BE,2/logit,logit,logit,inverse-double,Beta,1,Nuclear_axis_ratio_in_mother
+D183_C,Ratio,Beta,BE,2/logit,logit,logit,inverse-double,Beta,1,Nuclear_axis_ratio_in_bud
+D184_A1B,Ratio,Beta,BE,2/logit,logit,logit,inverse-double,Beta,1,Nuclear_axis_ratio
+ACV101_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_A101_A
+ACV101_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_A101_A1B
+ACV101_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_A101_C
+ACV102_A1B,Noise,Logistic,LO,identity,identity,log,loess regression,Gaussian,2,Coefficient_of_variation_of_A102_A1B
+ACV102_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_A102_C
+ACV103_A1B,Noise,Logistic,LO,identity,identity,log,loess regression,Gaussian,2,Coefficient_of_variation_of_A103_A1B
+ACV103_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_A103_C
+ACV104_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_A104_A1B
+ACV104_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_A104_C
+ACV120_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_A120_A
+ACV120_A1B,Noise,Logistic,LO,identity,identity,log,loess regression,Gaussian,2,Coefficient_of_variation_of_A120_A1B
+ACV120_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_A120_C
+ACV121_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_A121_A
+ACV121_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_A121_A1B
+ACV121_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_A121_C
+ACV122_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_A122_A
+ACV122_A1B,Noise,Logistic,LO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_A122_A1B
+ACV122_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_A122_C
+ACV123_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_A123_A
+ACV123_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_A123_A1B
+ACV123_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_A123_C
+ACV7-1_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_A7-1_A
+ACV7-1_A1B,Noise,Reverse Gumbel,RG,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_A7-1_A1B
+ACV7-1_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_A7-1_C
+ACV7-2_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_A7-2_A1B
+ACV7-2_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_A7-2_C
+ACV8-1_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_A8-1_A
+ACV8-1_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_A8-1_A1B
+ACV8-1_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_A8-1_C
+ACV8-2_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_A8-2_A1B
+ACV8-2_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_A8-2_C
+ACV9_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_A9_A1B
+ACV9_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_A9_C
+CCV101_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C101_A1B
+CCV101_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C101_C
+CCV102_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C102_A1B
+CCV102_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C102_C
+CCV103_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C103_A
+CCV103_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C103_A1B
+CCV103_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C103_C
+CCV104_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C104_A
+CCV104_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C104_A1B
+CCV104_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C104_C
+CCV105_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C105_A1B
+CCV105_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C105_C
+CCV106_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C106_A1B
+CCV106_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C106_C
+CCV107_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C107_A1B
+CCV107_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,2,Coefficient_of_variation_of_C107_C
+CCV108_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C108_A1B
+CCV108_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C108_C
+CCV109_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C109_A1B
+CCV109_C,Noise,Reverse Gumbel,RG,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C109_C
+CCV11-1_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C11-1_A
+CCV11-1_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C11-1_A1B
+CCV11-1_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C11-1_C
+CCV11-2_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C11-2_A1B
+CCV11-2_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C11-2_C
+CCV110_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C110_A1B
+CCV110_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C110_C
+CCV111_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C111_A1B
+CCV111_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C111_C
+CCV112_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C112_A1B
+CCV112_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C112_C
+CCV113_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C113_A1B
+CCV113_C,Noise,Reverse Gumbel,RG,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C113_C
+CCV114_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C114_A1B
+CCV114_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C114_C
+CCV115_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C115_A
+CCV115_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C115_A1B
+CCV115_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C115_C
+CCV116_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C116_A1B
+CCV116_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C116_C
+CCV117_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C117_A1B
+CCV117_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C117_C
+CCV118_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C118_A1B
+CCV118_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C118_C
+CCV12-1_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C12-1_A
+CCV12-1_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C12-1_A1B
+CCV12-1_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C12-1_C
+CCV12-2_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C12-2_A1B
+CCV12-2_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C12-2_C
+CCV126_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C126_A
+CCV126_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C126_A1B
+CCV126_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C126_C
+CCV127_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C127_A
+CCV127_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C127_A1B
+CCV127_C,Noise,Reverse Gumbel,RG,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C127_C
+CCV128_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C128_A1B
+CCV128_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C128_C
+CCV13_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,2,Coefficient_of_variation_of_C13_A
+CCV13_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C13_A1B
+CCV13_C,Noise,Reverse Gumbel,RG,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_C13_C
+DCV102_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D102_A
+DCV103_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D103_C
+DCV104_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D104_A1B
+DCV105_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D105_A
+DCV106_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D106_C
+DCV107_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D107_A1B
+DCV108_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D108_C
+DCV109_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D109_C
+DCV110_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D110_A1B
+DCV112_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D112_C
+DCV113_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D113_C
+DCV114_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D114_A1B
+DCV116_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D116_C
+DCV117_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D117_A
+DCV117_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D117_C
+DCV118_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D118_A1B
+DCV119_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D119_C
+DCV121_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D121_C
+DCV123_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D123_C
+DCV125_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D125_C
+DCV126_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D126_A1B
+DCV127_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D127_A
+DCV128_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D128_C
+DCV129_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D129_A1B
+DCV130_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D130_C
+DCV131_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D131_C
+DCV132_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D132_A1B
+DCV134_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D134_C
+DCV135_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D135_A
+DCV135_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D135_C
+DCV136_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D136_A1B
+DCV137_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D137_C
+DCV139_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D139_C
+DCV14-1_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D14-1_A
+DCV14-1_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D14-1_C
+DCV14-2_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D14-2_C
+DCV14-3_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D14-3_A1B
+DCV14-3_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D14-3_C
+DCV141_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D141_C
+DCV142_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D142_A1B
+DCV143_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D143_A1B
+DCV143_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D143_C
+DCV144_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D144_C
+DCV145_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D145_A1B
+DCV145_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D145_C
+DCV146_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D146_C
+DCV147_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D147_A
+DCV147_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,2,Coefficient_of_variation_of_D147_A1B
+DCV147_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D147_C
+DCV148_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D148_A
+DCV148_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D148_A1B
+DCV148_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D148_C
+DCV149_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D149_C
+DCV15-1_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D15-1_A
+DCV15-1_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D15-1_C
+DCV15-2_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D15-2_C
+DCV15-3_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D15-3_A1B
+DCV15-3_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D15-3_C
+DCV150_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D150_C
+DCV151_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D151_C
+DCV152_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D152_A1B
+DCV152_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D152_C
+DCV153_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D153_C
+DCV154_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D154_A
+DCV154_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D154_A1B
+DCV154_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D154_C
+DCV155_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D155_A
+DCV155_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D155_A1B
+DCV155_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D155_C
+DCV156_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D156_C
+DCV157_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D157_C
+DCV158_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D158_C
+DCV159_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D159_C
+DCV16-1_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D16-1_A
+DCV16-1_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D16-1_C
+DCV16-2_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D16-2_C
+DCV16-3_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D16-3_A1B
+DCV16-3_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D16-3_C
+DCV161_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D161_A1B
+DCV162_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D162_C
+DCV163_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D163_C
+DCV165_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D165_A1B
+DCV166_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D166_C
+DCV167_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D167_C
+DCV169_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D169_A1B
+DCV169_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D169_C
+DCV17-1_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D17-1_A
+DCV17-1_C,Noise,Reverse Gumbel,RG,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D17-1_C
+DCV17-2_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D17-2_C
+DCV17-3_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D17-3_A1B
+DCV170_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D170_A1B
+DCV170_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D170_C
+DCV172_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D172_A1B
+DCV173_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D173_A
+DCV173_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D173_C
+DCV174_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D174_C
+DCV175_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D175_A1B
+DCV176_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D176_A
+DCV176_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D176_C
+DCV177_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D177_C
+DCV178_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D178_A1B
+DCV179_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D179_A
+DCV179_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D179_C
+DCV180_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D180_C
+DCV181_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D181_A1B
+DCV182_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,2,Coefficient_of_variation_of_D182_A
+DCV182_C,Noise,Logistic,LO,identity,identity,log,loess regression,Gaussian,3,Coefficient_of_variation_of_D182_C
+DCV183_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D183_C
+DCV184_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D184_A1B
+DCV185_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D185_C
+DCV186_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D186_C
+DCV188_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D188_A
+DCV188_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D188_C
+DCV189_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D189_C
+DCV190_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D190_A1B
+DCV191_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D191_A
+DCV191_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D191_C
+DCV192_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D192_C
+DCV193_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D193_A1B
+DCV193_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D193_C
+DCV194_A,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D194_A
+DCV194_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D194_C
+DCV195_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D195_C
+DCV196_A1B,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D196_A1B
+DCV196_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D196_C
+DCV197_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D197_C
+DCV198_C,Noise,Gaussian,NO,identity,identity,log,loess regression,Gaussian,1,Coefficient_of_variation_of_D198_C
+A105,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,actin_a_ratio
+A105_A,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,Actin_a_ratio
+A106,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,actin_b_ratio
+A106_A,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,Actin_b_ratio
+A107,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,actin_c_api_ratio
+A107_A1B,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,Actin_c_api_ratio
+A107_C,Proportion,Binomial,BI,logit,logit,NA,count-back,Binomial,1,Actin_c_api_ratio
+A108,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,actin_d_iso_ratio
+A108_A1B,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,Actin_d_iso_ratio
+A108_C,Proportion,Binomial,BI,logit,logit,NA,count-back,Binomial,1,Actin_d_iso_ratio
+A109,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,actin_e_ratio
+A109_A1B,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,Actin_e_ratio
+A109_C,Proportion,Binomial,BI,logit,logit,NA,count-back,Binomial,1,Actin_e_ratio
+A110,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,actin_f_ratio
+A110_A1B,Proportion,Binomial,BI,logit,logit,NA,count-back,Binomial,1,Actin_f_ratio
+A110_C,Proportion,Binomial,BI,logit,logit,NA,count-back,Binomial,1,Actin_f_ratio
+A111,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,actin_ae_ratio
+A112,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,actin_bcd_ratio
+A112_A1B,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,Actin_cd_ratio
+A112_C,Proportion,Binomial,BI,logit,logit,NA,count-back,Binomial,1,Actin_cd_ratio
+A113,Proportion,Binomial,BI,logit,logit,NA,count-back,Binomial,1,actin_n_ratio
+A113_A,Proportion,Binomial,BI,logit,logit,NA,count-back,Binomial,1,Actin_n_ratio
+A113_A1B,Proportion,Binomial,BI,logit,logit,NA,count-back,Binomial,1,Actin_n_ratio
+A113_C,Proportion,Binomial,BI,logit,logit,NA,count-back,Binomial,1,Actin_n_ratio
+A114,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,actin_a_ratio_to_no_bud_cells
+A115,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,actin_b_ratio_to_no_bud_cells
+A116,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,actin_c_api_ratio_to_budded_cells
+A117,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,actin_d_iso_ratio_to_budded_cells
+A118,Proportion,Binomial,BI,logit,logit,NA,count-back,Binomial,1,actin_e_ratio_to_budded_cells
+A119,Proportion,Binomial,BI,logit,logit,NA,count-back,Binomial,1,actin_f_ratio_to_budded_cells
+C119,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,no_bud_ratio
+C120,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,small_bud_ratio
+C121,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,medium_bud_ratio
+C122,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,large_bud_ratio
+C123,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,small_bud_ratio_to_budded_cells
+C123_A1B,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,Small_bud_ratio
+C123_C,Proportion,Binomial,BI,logit,logit,NA,count-back,Binomial,1,Small_bud_ratio
+C124,Proportion,Binomial,BI,logit,logit,NA,count-back,Binomial,1,medium_bud_ratio_to_buded_cells
+C124_A1B,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,Medium_bud_ratio
+C124_C,Proportion,Binomial,BI,logit,logit,NA,count-back,Binomial,1,Medium_bud_ratio
+C125,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,large_bud_ratio_to_buded_cells
+C125_A1B,Proportion,Binomial,BI,logit,logit,NA,count-back,Binomial,1,Large_bud_ratio
+C125_C,Proportion,Binomial,BI,logit,logit,NA,count-back,Binomial,1,Large_bud_ratio
+D199,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,nuclear_A_ratio
+D200,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,nuclear_A1_ratio
+D201,Proportion,Binomial,BI,logit,logit,NA,count-back,Binomial,1,nuclear_B_ratio
+D202,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,nuclear_C_ratio
+D203,Proportion,Binomial,BI,logit,logit,NA,count-back,Binomial,1,nuclear_D_ratio
+D204,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,nuclear_E_ratio
+D205,Proportion,Binomial,BI,logit,logit,NA,count-back,Binomial,1,nuclear_F_ratio
+D206,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,nuclear_A_ratio_to_no_bud_cells
+D207,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,nuclear_A1_ratio_to_budded_cells
+D208,Proportion,Binomial,BI,logit,logit,NA,count-back,Binomial,1,nuclear_B_ratio_to_budded_cells
+D209,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,nuclear_C_ratio_to_budded_cells
+D210,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,nuclear_A_ratio_to_nuclear_AA1BC_cells
+D211,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,nuclear_A1_ratio_to_nuclear_AA1BC_cells
+D212,Proportion,Binomial,BI,logit,logit,NA,count-back,Binomial,1,nuclear_B_ratio_to_nuclear_AA1BC_cells
+D213,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,nuclear_C_ratio_to_nuclear_AA1BC_cells
+D214,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,nuclear_A1_ratio_to_nuclear_A1BC_cells
+D215,Proportion,Binomial,BI,logit,logit,NA,count-back,Binomial,1,nuclear_B_ratio_to_nuclear_A1BC_cells
+D216,Proportion,Beta-binomial,BB,logit,logit,log,count-back,Binomial,1,nuclear_C_ratio_to_nuclear_A1BC_cells
