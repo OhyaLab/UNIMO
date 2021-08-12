@@ -315,9 +315,9 @@ for (i in rownames(D501)) {
     res <- matrix(NA, nrow = nrow(temp), ncol = 2, dimnames = list(rownames(AllNonEss$Trans), c("LowerTail","UpperTail")))
     ### Observations should be passed to the pBI() function one by one.
     for (j in rownames(temp)[w]) {
-      ### EStimating P value given the lower-tail of a Binomial distributed data (one-sided test).
+      ### Estimating P value given the lower-tail of a Binomial distributed data (one-sided test).
       res[j,"LowerTail"] <- pBI(q = temp[j,"n"], bd = temp[j,"N"], mu = logistic(glmres[[i]]$mu.coefficients), lower.tail = T)
-      ### EStimating P value given the upper-tail of a Binomial distributed data (one-sided test).
+      ### Estimating P value given the upper-tail of a Binomial distributed data (one-sided test).
       res[j,"UpperTail"] <- pBI(q = temp[j,"n"], bd = temp[j,"N"], mu = logistic(glmres[[i]]$mu.coefficients), lower.tail = F)
     }
     res[is.na(res)] <- 1
@@ -335,9 +335,9 @@ for (i in rownames(D501)) {
     res <- matrix(NA, nrow = nrow(temp), ncol = 2, dimnames = list(rownames(AllNonEss$Trans), c("LowerTail","UpperTail")))
     ### Observations should be passed to the pBB2() function one by one.
     for (j in rownames(temp)[w]) {
-      ### EStimating P value given the lower-tail of a Beta-Binomial distributed data (one-sided test).
+      ### Estimating P value given the lower-tail of a Beta-Binomial distributed data (one-sided test).
       res[j,"LowerTail"] <-  pBB2(q = temp[j,"n"], bd = temp[j,"N"], mu = logistic(glmres[[i]]$mu.coefficients), sigma = exp(glmres[[i]]$sigma.coefficients), lower.tail = T)
-      ### EStimating P value given the upper-tail of a Beta-Binomial distributed data (one-sided test).
+      ### Estimating P value given the upper-tail of a Beta-Binomial distributed data (one-sided test).
       res[j,"UpperTail"] <-  pBB2(q = temp[j,"n"], bd = temp[j,"N"], mu = logistic(glmres[[i]]$mu.coefficients), sigma = exp(glmres[[i]]$sigma.coefficients), lower.tail = F)
     }
     res[is.na(res)] <- 1
