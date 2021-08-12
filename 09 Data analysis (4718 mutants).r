@@ -321,6 +321,7 @@ for (i in rownames(D501)) {
       res[j,"UpperTail"] <- pBI(q = temp[j,"n"], bd = temp[j,"N"], mu = logistic(glmres[[i]]$mu.coefficients), lower.tail = F)
     }
     res[is.na(res)] <- 1
+    rm(j,w)
   }
   ## 4-2) Beta-Binomial distribution (38 CalMorph parameters) 
   if(D501[i,"PDF"] == "Beta-binomial"){
@@ -340,6 +341,7 @@ for (i in rownames(D501)) {
       res[j,"UpperTail"] <-  pBB2(q = temp[j,"n"], bd = temp[j,"N"], mu = logistic(glmres[[i]]$mu.coefficients), sigma = exp(glmres[[i]]$sigma.coefficients), lower.tail = F)
     }
     res[is.na(res)] <- 1
+    rm(j,w)
   }
   ### Two-sided test: 2 * P value of a one-sided test.
   ### 2 * smaller P value between lower- and upper-tail.
