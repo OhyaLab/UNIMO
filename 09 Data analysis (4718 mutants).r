@@ -305,6 +305,8 @@ for (i in rownames(D501)) {
   # 4) Proportion parameters (61 CalMorph parameters)
   ## 4-1) Binomial distribution (23 CalMorph parameters)
   if(D501[i,"PDF"] == "Binomial"){
+    ### Weight for those replicates with zero or one values
+    w <- ifelse(AllNonEss$n[,i] == 0 | AllNonEss$n[,i] == AllNonEss$N[,i], FALSE, TRUE)
     ### A data frame of:
     #### n: Vector of (non-negative integer) quantiles.
     #### N: Vector of binomial denominators.
@@ -322,6 +324,8 @@ for (i in rownames(D501)) {
   }
   ## 4-2) Beta-Binomial distribution (38 CalMorph parameters) 
   if(D501[i,"PDF"] == "Beta-binomial"){
+    ### Weight for those replicates with zero or one values
+    w <- ifelse(AllNonEss$n[,i] == 0 | AllNonEss$n[,i] == AllNonEss$N[,i], FALSE, TRUE)
     ### A data frame of:
     #### n: Vector of (non-negative integer) quantiles.
     #### N: Vector of binomial denominators.
